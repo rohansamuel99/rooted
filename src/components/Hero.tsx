@@ -2,7 +2,7 @@ export default function Hero() {
   return (
     <section
       style={{
-        height: '100vh',
+        height: '100dvh',
         background: '#052b03',
         position: 'relative',
         display: 'flex',
@@ -30,7 +30,7 @@ export default function Hero() {
         style={{
           width: '100%',
           textAlign: 'center',
-          fontSize: 'clamp(0.95rem, 2vw, 1.15rem)',
+          fontSize: 'clamp(0.95rem, 4vw, 1.15rem)',
           color: 'rgba(245, 240, 232, 0.7)',
           letterSpacing: '0.03em',
           marginBottom: '3rem',
