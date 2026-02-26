@@ -3,7 +3,7 @@ export default function Hero() {
     <section
       style={{
         height: '100vh',
-        background: '#0f4d2f',
+        background: '#052b03',
         position: 'relative',
         display: 'flex',
         flexDirection: 'column',
@@ -15,8 +15,9 @@ export default function Hero() {
     >
       <h1
         style={{
+          fontFamily: "'Barlow', 'DM Sans', sans-serif",
           fontSize: 'clamp(3.5rem, 10vw, 7rem)',
-          fontWeight: 800,
+          fontWeight: 600,
           color: '#f5f0e8',
           letterSpacing: '0.15em',
           marginBottom: '1.25rem',
@@ -27,6 +28,8 @@ export default function Hero() {
 
       <p
         style={{
+          width: '100%',
+          textAlign: 'center',
           fontSize: 'clamp(0.95rem, 2vw, 1.15rem)',
           color: 'rgba(245, 240, 232, 0.7)',
           letterSpacing: '0.03em',
