@@ -1,6 +1,6 @@
 export default function Navbar() {
   return (
-    <nav style={{ padding: '1.5rem 2rem', display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
+    <nav style={{ padding: '1.5rem 2rem', display: 'flex', justifyContent: 'space-between', alignItems: 'center', background: '#042303ff' }}>
       <div style={{
         background: '#042303ff',
         color: '#ffffff',
