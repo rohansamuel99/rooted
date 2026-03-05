@@ -3,7 +3,7 @@ export default function Hero() {
     <section
       style={{
         height: '100dvh',
-        background: '#052b03',
+        background: '#042303ff',
         position: 'relative',
         display: 'flex',
         flexDirection: 'column',
